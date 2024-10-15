@@ -1,0 +1,12 @@
+defaults:
+  - _self_
+  - experiment: mnist_simple
+  - trainer: default
+
+project_name: image-classification-with-lightning
+seed: 42
+float32_matmul_precision: high
+ckpt: null
+max_epochs: -1
+precision: 32-true
+benchmark: True

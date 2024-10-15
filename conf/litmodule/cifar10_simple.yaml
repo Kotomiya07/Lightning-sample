@@ -1,0 +1,9 @@
+_target_: litmodule.LitMulticlassClassifier
+
+model:
+  _target_: model.ConvNet32
+  input_channels: 3
+  hidden_dim: 50
+  output_dim: 10
+
+num_classes: 10

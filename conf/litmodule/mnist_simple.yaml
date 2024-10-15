@@ -1,0 +1,9 @@
+_target_: litmodule.LitMulticlassClassifier
+
+model:
+  _target_: model.SimpleDenseNet
+  input_dim: 784
+  hidden_dim: 64
+  output_dim: 10
+
+num_classes: 10

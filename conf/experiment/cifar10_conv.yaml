@@ -1,0 +1,4 @@
+# @package _global_
+defaults:
+  - /datamodule: cifar10
+  - /litmodule: cifar10_conv
