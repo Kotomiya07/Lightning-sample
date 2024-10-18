@@ -1,0 +1,14 @@
+_target_: litmodule.LitMNISTGAN
+
+model:
+  _target_: model.Generator
+  dim_latent: 100
+  num_class: 10
+
+model:
+  _target_: model.BaseDiscriminator
+  num_class: 10
+
+lr: 0.001
+beta_1: 0.0
+beta_2: 0.99
